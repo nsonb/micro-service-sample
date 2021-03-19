@@ -1,0 +1,22 @@
+{
+  "name": "micro-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "container": "cd container && npm run start",
+    "product": "cd products && npm run start",
+    "cart": "cd products && npm run start",
+    "start": "concurrently \"npm product \" npm container \"npm cart\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsonb/micro-service-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsonb/micro-service-sample/issues"
+  },
+  "homepage": "https://github.com/nsonb/micro-service-sample#readme"
+}
